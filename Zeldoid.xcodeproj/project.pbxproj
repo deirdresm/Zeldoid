@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3807FEF127E1451400C2C001 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3807FEF027E1451400C2C001 /* Tests_iOS.swift */; };
+		3807FEF327E1451400C2C001 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3807FEF227E1451400C2C001 /* Tests_iOSLaunchTests.swift */; };
+		3807FEFD27E1451400C2C001 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3807FEFC27E1451400C2C001 /* Tests_macOS.swift */; };
+		3807FEFF27E1451400C2C001 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3807FEFE27E1451400C2C001 /* Tests_macOSLaunchTests.swift */; };
+		3807FF0027E1451400C2C001 /* ZeldoidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3807FED827E1451100C2C001 /* ZeldoidApp.swift */; };
+		3807FF0127E1451400C2C001 /* ZeldoidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3807FED827E1451100C2C001 /* ZeldoidApp.swift */; };
+		3807FF0227E1451400C2C001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3807FED927E1451100C2C001 /* ContentView.swift */; };
+		3807FF0327E1451400C2C001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3807FED927E1451100C2C001 /* ContentView.swift */; };
+		3807FF0427E1451400C2C001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3807FEDA27E1451400C2C001 /* Assets.xcassets */; };
+		3807FF0527E1451400C2C001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3807FEDA27E1451400C2C001 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3807FEED27E1451400C2C001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3807FED327E1451100C2C001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3807FEDE27E1451400C2C001;
+			remoteInfo = "Zeldoid (iOS)";
+		};
+		3807FEF927E1451400C2C001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3807FED327E1451100C2C001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3807FEE427E1451400C2C001;
+			remoteInfo = "Zeldoid (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3807FED827E1451100C2C001 /* ZeldoidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldoidApp.swift; sourceTree = "<group>"; };
+		3807FED927E1451100C2C001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3807FEDA27E1451400C2C001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3807FEDF27E1451400C2C001 /* Zeldoid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zeldoid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3807FEE527E1451400C2C001 /* Zeldoid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zeldoid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3807FEE727E1451400C2C001 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		3807FEEC27E1451400C2C001 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3807FEF027E1451400C2C001 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		3807FEF227E1451400C2C001 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		3807FEF827E1451400C2C001 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3807FEFC27E1451400C2C001 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		3807FEFE27E1451400C2C001 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3807FEDC27E1451400C2C001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3807FEE227E1451400C2C001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3807FEE927E1451400C2C001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3807FEF527E1451400C2C001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3807FED227E1451100C2C001 = {
+			isa = PBXGroup;
+			children = (
+				3807FED727E1451100C2C001 /* Shared */,
+				3807FEE627E1451400C2C001 /* macOS */,
+				3807FEEF27E1451400C2C001 /* Tests iOS */,
+				3807FEFB27E1451400C2C001 /* Tests macOS */,
+				3807FEE027E1451400C2C001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3807FED727E1451100C2C001 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3807FED827E1451100C2C001 /* ZeldoidApp.swift */,
+				3807FED927E1451100C2C001 /* ContentView.swift */,
+				3807FEDA27E1451400C2C001 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		3807FEE027E1451400C2C001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3807FEDF27E1451400C2C001 /* Zeldoid.app */,
+				3807FEE527E1451400C2C001 /* Zeldoid.app */,
+				3807FEEC27E1451400C2C001 /* Tests iOS.xctest */,
+				3807FEF827E1451400C2C001 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3807FEE627E1451400C2C001 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				3807FEE727E1451400C2C001 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		3807FEEF27E1451400C2C001 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3807FEF027E1451400C2C001 /* Tests_iOS.swift */,
+				3807FEF227E1451400C2C001 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		3807FEFB27E1451400C2C001 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				3807FEFC27E1451400C2C001 /* Tests_macOS.swift */,
+				3807FEFE27E1451400C2C001 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3807FEDE27E1451400C2C001 /* Zeldoid (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3807FF0827E1451400C2C001 /* Build configuration list for PBXNativeTarget "Zeldoid (iOS)" */;
+			buildPhases = (
+				3807FEDB27E1451400C2C001 /* Sources */,
+				3807FEDC27E1451400C2C001 /* Frameworks */,
+				3807FEDD27E1451400C2C001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zeldoid (iOS)";
+			productName = "Zeldoid (iOS)";
+			productReference = 3807FEDF27E1451400C2C001 /* Zeldoid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3807FEE427E1451400C2C001 /* Zeldoid (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3807FF0B27E1451400C2C001 /* Build configuration list for PBXNativeTarget "Zeldoid (macOS)" */;
+			buildPhases = (
+				3807FEE127E1451400C2C001 /* Sources */,
+				3807FEE227E1451400C2C001 /* Frameworks */,
+				3807FEE327E1451400C2C001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zeldoid (macOS)";
+			productName = "Zeldoid (macOS)";
+			productReference = 3807FEE527E1451400C2C001 /* Zeldoid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3807FEEB27E1451400C2C001 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3807FF0E27E1451400C2C001 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				3807FEE827E1451400C2C001 /* Sources */,
+				3807FEE927E1451400C2C001 /* Frameworks */,
+				3807FEEA27E1451400C2C001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3807FEEE27E1451400C2C001 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 3807FEEC27E1451400C2C001 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3807FEF727E1451400C2C001 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3807FF1127E1451400C2C001 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				3807FEF427E1451400C2C001 /* Sources */,
+				3807FEF527E1451400C2C001 /* Frameworks */,
+				3807FEF627E1451400C2C001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3807FEFA27E1451400C2C001 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 3807FEF827E1451400C2C001 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3807FED327E1451100C2C001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3807FEDE27E1451400C2C001 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					3807FEE427E1451400C2C001 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					3807FEEB27E1451400C2C001 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 3807FEDE27E1451400C2C001;
+					};
+					3807FEF727E1451400C2C001 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 3807FEE427E1451400C2C001;
+					};
+				};
+			};
+			buildConfigurationList = 3807FED627E1451100C2C001 /* Build configuration list for PBXProject "Zeldoid" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3807FED227E1451100C2C001;
+			productRefGroup = 3807FEE027E1451400C2C001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3807FEDE27E1451400C2C001 /* Zeldoid (iOS) */,
+				3807FEE427E1451400C2C001 /* Zeldoid (macOS) */,
+				3807FEEB27E1451400C2C001 /* Tests iOS */,
+				3807FEF727E1451400C2C001 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3807FEDD27E1451400C2C001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3807FF0427E1451400C2C001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3807FEE327E1451400C2C001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3807FF0527E1451400C2C001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3807FEEA27E1451400C2C001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3807FEF627E1451400C2C001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3807FEDB27E1451400C2C001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3807FF0227E1451400C2C001 /* ContentView.swift in Sources */,
+				3807FF0027E1451400C2C001 /* ZeldoidApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3807FEE127E1451400C2C001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3807FF0327E1451400C2C001 /* ContentView.swift in Sources */,
+				3807FF0127E1451400C2C001 /* ZeldoidApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3807FEE827E1451400C2C001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3807FEF327E1451400C2C001 /* Tests_iOSLaunchTests.swift in Sources */,
+				3807FEF127E1451400C2C001 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3807FEF427E1451400C2C001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3807FEFF27E1451400C2C001 /* Tests_macOSLaunchTests.swift in Sources */,
+				3807FEFD27E1451400C2C001 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3807FEEE27E1451400C2C001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3807FEDE27E1451400C2C001 /* Zeldoid (iOS) */;
+			targetProxy = 3807FEED27E1451400C2C001 /* PBXContainerItemProxy */;
+		};
+		3807FEFA27E1451400C2C001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3807FEE427E1451400C2C001 /* Zeldoid (macOS) */;
+			targetProxy = 3807FEF927E1451400C2C001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3807FF0627E1451400C2C001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3807FF0727E1451400C2C001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3807FF0927E1451400C2C001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3N8JZ2T92;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.deirdre.Zeldoid;
+				PRODUCT_NAME = Zeldoid;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3807FF0A27E1451400C2C001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3N8JZ2T92;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.deirdre.Zeldoid;
+				PRODUCT_NAME = Zeldoid;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3807FF0C27E1451400C2C001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3N8JZ2T92;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.deirdre.Zeldoid;
+				PRODUCT_NAME = Zeldoid;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3807FF0D27E1451400C2C001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3N8JZ2T92;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.deirdre.Zeldoid;
+				PRODUCT_NAME = Zeldoid;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3807FF0F27E1451400C2C001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3N8JZ2T92;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.deirdre.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zeldoid (iOS)";
+			};
+			name = Debug;
+		};
+		3807FF1027E1451400C2C001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3N8JZ2T92;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.deirdre.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zeldoid (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3807FF1227E1451400C2C001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3N8JZ2T92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.deirdre.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Zeldoid (macOS)";
+			};
+			name = Debug;
+		};
+		3807FF1327E1451400C2C001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3N8JZ2T92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.deirdre.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Zeldoid (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3807FED627E1451100C2C001 /* Build configuration list for PBXProject "Zeldoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3807FF0627E1451400C2C001 /* Debug */,
+				3807FF0727E1451400C2C001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3807FF0827E1451400C2C001 /* Build configuration list for PBXNativeTarget "Zeldoid (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3807FF0927E1451400C2C001 /* Debug */,
+				3807FF0A27E1451400C2C001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3807FF0B27E1451400C2C001 /* Build configuration list for PBXNativeTarget "Zeldoid (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3807FF0C27E1451400C2C001 /* Debug */,
+				3807FF0D27E1451400C2C001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3807FF0E27E1451400C2C001 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3807FF0F27E1451400C2C001 /* Debug */,
+				3807FF1027E1451400C2C001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3807FF1127E1451400C2C001 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3807FF1227E1451400C2C001 /* Debug */,
+				3807FF1327E1451400C2C001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3807FED327E1451100C2C001 /* Project object */;
+}
